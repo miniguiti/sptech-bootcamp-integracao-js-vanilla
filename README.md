@@ -1,5 +1,5 @@
 
-![readmes (1)](https://user-images.githubusercontent.com/37668247/231242959-3c5aabd2-e9c8-44e4-9460-b478cff73e53.png)
+![readmes (3)](https://user-images.githubusercontent.com/37668247/231278504-7974e990-bedc-4812-9ae0-b1560fd0bf06.png)
 
 
 # SPTECH - Bootcamp Integracao com JS Vanilla
