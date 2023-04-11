@@ -1,0 +1,188 @@
+/* Variáveis */
+:root {
+    --purple: #9945FF;
+    --green: #14F195;
+    --off-white: #F2F2F2;
+    --pure-black: #000000;
+    --pure-black-transparent: #131313;
+    --font-defaut: 'Roboto Mono', monospace;
+}
+
+/* Geral/Aplicado em todas as telas */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    background-color: var(--pure-black);
+    font-family: var(--font-defaut);
+}
+
+.btn {
+    height: 40px;
+    padding: 0 50px;
+    color: var(--pure-black);
+    background-color: var(--purple);
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-family: var(--font-defaut);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav {
+    height: 80px;
+    background-color: var(--pure-black);
+    box-shadow: #14f1955c 0px 25px 100px;
+}
+
+.avatar {
+    float: right;
+}
+
+.logo,
+.avatar {
+    margin-top: 15px;
+    height: 50px;
+}
+
+/* Index */
+
+.index-img {
+    width: 50%;
+    margin: auto;
+}
+
+.index-conteudo {
+    display: flex;
+}
+
+.index-conteudo img{
+    margin-top: 50px;
+}
+
+.frase-principal {
+    font-family: Roboto Mono;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 60px;
+    color: #F2F2F2;
+}
+
+.subtitulo {
+    font-family: Roboto Mono;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 35Px 0;
+    color: #5CE1E6;
+}
+
+
+/* Página de Dicas*/
+
+.adicionar {
+    margin-top: 40px;
+}
+
+.boxes {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.descricao {
+    background-color: var(--pure-black-transparent);
+    padding: 15px;
+    width: 100%;
+}
+
+.icones {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icones img {
+    margin-left: 10px;
+    cursor: pointer
+}
+
+.card {
+    width: 30%;
+    margin: 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.card p {
+    font-family: var(--font-defaut);
+    color: var(--off-white);
+    font-weight: 300;
+    line-height: 175%;
+    margin-bottom: 5px;
+    justify-content: space-around;
+}
+
+.card p strong {
+    color: var(--green);
+}
+
+.card .img-background {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.card .img-background:hover {
+    width: 100%;
+    height: 50%;
+    transition: 0.7s;
+}
+
+
+/* ADICIONAR MÚSICA */
+
+.adicionar-conteudo {
+    display: flex;
+}
+
+.adicionar-conteudo img {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.adicionar-conteudo h1 {
+    margin: 50px 0;
+    font-family: Roboto Mono;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 84px;
+    color: var(--off-white);
+}
+
+.formulario {
+    width: 50%;
+}
+
+form {
+    color: var(--off-white);
+    text-transform: lowercase;
+}
+
+form input {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 25px;
+    font-family: var(--font-defaut);
+}
+
+form label {
+    font-family: var(--font-defaut);
+}
