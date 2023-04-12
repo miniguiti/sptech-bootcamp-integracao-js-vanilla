@@ -1,5 +1,5 @@
 
-![readmes (1)](https://user-images.githubusercontent.com/37668247/231242959-3c5aabd2-e9c8-44e4-9460-b478cff73e53.png)
+![readmes (3)](https://user-images.githubusercontent.com/37668247/231278504-7974e990-bedc-4812-9ae0-b1560fd0bf06.png)
 
 
 # SPTECH - Bootcamp Integracao com JS Vanilla
@@ -11,14 +11,14 @@ Desenvolvendo habilidades em programação full-stack com o bootcamp de Front-en
 ![FetchAPI](https://img.shields.io/badge/FetchAPI-005571?style=for-the-badge)
 ![MockApi](https://img.shields.io/badge/MockAPI-1C1E24?style=for-the-badge&)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 
 ## Tópicos abordados 
 
 ### Primeira Parte
 1. Clonando repositório e conhecendo projeto
 2. Criando MockAPI (https://mockapi.io/projects)
-3. Utilizando PostMan para testar as requisições
+3. Utilizando Insomnia para testar as requisições
 1. Realizando requisição GET e utilizando os dados retornados na tela
 
 ## Telas
