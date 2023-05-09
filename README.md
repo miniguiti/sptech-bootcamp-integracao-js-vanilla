@@ -21,6 +21,9 @@ Desenvolvendo habilidades em programação full-stack com o bootcamp de Front-en
 3. Utilizando Insomnia para testar as requisições
 1. Realizando requisição GET e utilizando os dados retornados na tela
 
+## Arquitetura de Código
+![fluxo (2)](https://github.com/miniguiti/sptech-bootcamp-integracao-js-vanilla/assets/37668247/f21dfdef-20ff-4af5-8191-bcc555689712)
+
 ## Telas
 ![Screenshot from 2023-04-11 14-51-26](https://user-images.githubusercontent.com/37668247/231247317-db119c4e-5a9e-4d8f-bd78-fe9c352c3b43.png)
 ![Screenshot from 2023-04-11 14-47-52](https://user-images.githubusercontent.com/37668247/231247329-26adf667-bea7-4423-ad2a-dd34f228ffbf.png)
