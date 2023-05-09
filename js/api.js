@@ -1,5 +1,5 @@
 async function buscarDicas(){
-    const resposta = await fetch("cole_sua_url_aqui");
+    const resposta = await fetch("https://6435cb4f83a30bc9ad6a2721.mockapi.io/dicas");
 
     const dicasResposta = await resposta.json();
     console.log("Dicas: ", dicasResposta)
