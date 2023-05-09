@@ -1,5 +1,5 @@
 async function buscarDicas(){
-    const resposta = await fetch("localhost:8004/dicas");
+    const resposta = await fetch("https://6435cb4f83a30bc9ad6a2721.mockapi.io/dicas");
 
     const dicasResposta = await resposta.json();
     console.log("Dicas: ", dicasResposta)
@@ -7,7 +7,7 @@ async function buscarDicas(){
     const boxDicas = document.getElementById("box_dicas");
 
     boxDicas.innerHTML = dicasResposta.map(function(dica){
-        // para cada dica, retorna um car
+        // para cada dica, retorna um card
         return `<div class="card">
                     <img class="img-background" src="${dica.urlImagem}" alt="">
                     <div class="descricao">

@@ -151,11 +151,13 @@ nav {
 
 .adicionar-conteudo {
     display: flex;
+    justify-content: space-between;
 }
 
 .adicionar-conteudo img {
     margin-top: 100px;
     width: 50%;
+    height: 50%;
 }
 
 .adicionar-conteudo h1 {
@@ -167,22 +169,7 @@ nav {
     color: var(--off-white);
 }
 
-.formulario {
-    width: 50%;
-}
-
 form {
+    width: 35%;
     color: var(--off-white);
-    text-transform: lowercase;
-}
-
-form input {
-    width: 90%;
-    height: 40px;
-    margin-bottom: 25px;
-    font-family: var(--font-defaut);
-}
-
-form label {
-    font-family: var(--font-defaut);
 }
